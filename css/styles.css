@@ -10208,7 +10208,7 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg"); */
-  background: black url("../assets/img/stars.png") repeat;
+  background: black url("../assets/img/deep-sea.jpg") repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10261,7 +10261,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%), url(../assets/img/deep-sea.jpg);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10297,7 +10297,7 @@ body {
 .signup-section {
   padding-top: 10rem;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg"); */
-  background: black url("../assets/img/stars.png") repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/deep-sea.jpg") ;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10315,19 +10315,13 @@ body {
 }
 
 .contact-section {
-  background: black url("../assets/img/stars.png") repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/deep-sea.jpg") repeat;
   padding-top: 5rem;
 }
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
-/* .contact-section .card-hover{
-  transition: transform 10s;
-}
-.contact-section .card-hover :hover {
-  transform: scale(0.95);
-} */
 .contact-section .card h4 {
   font-size: 0.8rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10357,10 +10351,12 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
-.contact-section .social h3{
+.contact-section .social h4{
   color: rgba(255, 255, 255, 0.5);
 }
 
 .footer {
   padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/deep-sea.jpg") repeat;
+
 }
