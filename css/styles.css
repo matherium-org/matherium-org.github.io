@@ -10295,7 +10295,7 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding-top: 10rem;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg"); */
   background: black url("../assets/img/stars.png") repeat;
   background-position: center;
@@ -10315,12 +10315,19 @@ body {
 }
 
 .contact-section {
+  background: black url("../assets/img/stars.png") repeat;
   padding-top: 5rem;
 }
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
+/* .contact-section .card-hover{
+  transition: transform 10s;
+}
+.contact-section .card-hover :hover {
+  transform: scale(0.95);
+} */
 .contact-section .card h4 {
   font-size: 0.8rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10349,6 +10356,9 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+.contact-section .social h3{
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer {
